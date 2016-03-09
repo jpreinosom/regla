@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_s_LE4eYdEeWnO7D3SZT-Cw" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_uot1kOYdEeWnO7D3SZT-Cw" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Designer" exporterVersion="6.2.0" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.omg.org/bpmn20" typeLanguage="http://www.java.com/javaTypes">
   <bpmn2:itemDefinition id="_vendedorItem" structureRef="cencosud.remuneraciones.Vendedor"/>
   <bpmn2:itemDefinition id="__BDA2B1AC-3D92-4024-B2B7-84F90195F3C8_outVendedorOutputXItem" structureRef="cencosud.remuneraciones.Vendedor"/>
   <bpmn2:itemDefinition id="__65868091-177C-4180-B476-42A3F303C7A6_inVendedorInputXItem" structureRef="cencosud.remuneraciones.Vendedor"/>
@@ -27,24 +27,24 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_C3F4C0E5-B92E-4E5B-9463-54B05A7CBF65</bpmn2:incoming>
       <bpmn2:outgoing>_2F602A2D-3342-4F2E-916A-E168F7FF027D</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_s_MTAOYdEeWnO7D3SZT-Cw">
+      <bpmn2:ioSpecification id="_uoucoOYdEeWnO7D3SZT-Cw">
         <bpmn2:dataInput id="_BDA2B1AC-3D92-4024-B2B7-84F90195F3C8_SkippableInputX" name="Skippable"/>
         <bpmn2:dataOutput id="_BDA2B1AC-3D92-4024-B2B7-84F90195F3C8_outVendedorOutputX" drools:dtype="cencosud.remuneraciones.Vendedor" itemSubjectRef="__BDA2B1AC-3D92-4024-B2B7-84F90195F3C8_outVendedorOutputXItem" name="outVendedor"/>
-        <bpmn2:inputSet id="_s_MTAeYdEeWnO7D3SZT-Cw">
+        <bpmn2:inputSet id="_uoucoeYdEeWnO7D3SZT-Cw">
           <bpmn2:dataInputRefs>_BDA2B1AC-3D92-4024-B2B7-84F90195F3C8_SkippableInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_s_MTAuYdEeWnO7D3SZT-Cw">
+        <bpmn2:outputSet id="_uoucouYdEeWnO7D3SZT-Cw">
           <bpmn2:dataOutputRefs>_BDA2B1AC-3D92-4024-B2B7-84F90195F3C8_outVendedorOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_s_MTA-YdEeWnO7D3SZT-Cw">
+      <bpmn2:dataInputAssociation id="_uouco-YdEeWnO7D3SZT-Cw">
         <bpmn2:targetRef>_BDA2B1AC-3D92-4024-B2B7-84F90195F3C8_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_s_MTBOYdEeWnO7D3SZT-Cw">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_s_MTBeYdEeWnO7D3SZT-Cw">true</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_s_MTBuYdEeWnO7D3SZT-Cw">_BDA2B1AC-3D92-4024-B2B7-84F90195F3C8_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_uoucpOYdEeWnO7D3SZT-Cw">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_uoucpeYdEeWnO7D3SZT-Cw">true</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_uoucpuYdEeWnO7D3SZT-Cw">_BDA2B1AC-3D92-4024-B2B7-84F90195F3C8_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_s_MTB-YdEeWnO7D3SZT-Cw">
+      <bpmn2:dataOutputAssociation id="_uoucp-YdEeWnO7D3SZT-Cw">
         <bpmn2:sourceRef>_BDA2B1AC-3D92-4024-B2B7-84F90195F3C8_outVendedorOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>vendedor</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -58,14 +58,14 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_2F602A2D-3342-4F2E-916A-E168F7FF027D</bpmn2:incoming>
       <bpmn2:outgoing>_84E51326-94A7-462E-B927-8B2535D65617</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_s_MTCOYdEeWnO7D3SZT-Cw">
+      <bpmn2:ioSpecification id="_uoucqOYdEeWnO7D3SZT-Cw">
         <bpmn2:dataInput id="_65868091-177C-4180-B476-42A3F303C7A6_inVendedorInputX" drools:dtype="cencosud.remuneraciones.Vendedor" itemSubjectRef="__65868091-177C-4180-B476-42A3F303C7A6_inVendedorInputXItem" name="inVendedor"/>
-        <bpmn2:inputSet id="_s_MTCeYdEeWnO7D3SZT-Cw">
+        <bpmn2:inputSet id="_uoucqeYdEeWnO7D3SZT-Cw">
           <bpmn2:dataInputRefs>_65868091-177C-4180-B476-42A3F303C7A6_inVendedorInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_s_MTCuYdEeWnO7D3SZT-Cw"/>
+        <bpmn2:outputSet id="_uoucquYdEeWnO7D3SZT-Cw"/>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_s_MTC-YdEeWnO7D3SZT-Cw">
+      <bpmn2:dataInputAssociation id="_uoucq-YdEeWnO7D3SZT-Cw">
         <bpmn2:sourceRef>vendedor</bpmn2:sourceRef>
         <bpmn2:targetRef>_65868091-177C-4180-B476-42A3F303C7A6_inVendedorInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
@@ -78,52 +78,72 @@
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_84E51326-94A7-462E-B927-8B2535D65617</bpmn2:incoming>
+      <bpmn2:outgoing>_33DE5A21-3E1B-43F1-AD8A-2D4935442FC8</bpmn2:outgoing>
       <bpmn2:script><![CDATA[System.out.println("la comision de venta es igual a " + vendedor.getComision());
 System.out.println("Sueldo + comision =  " + vendedor.getSueldo() * vendedor.getComision());]]></bpmn2:script>
     </bpmn2:scriptTask>
     <bpmn2:sequenceFlow id="_84E51326-94A7-462E-B927-8B2535D65617" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_65868091-177C-4180-B476-42A3F303C7A6" targetRef="_8E79C52A-4DDE-42A1-9A2B-294C7A2D0617"/>
+    <bpmn2:endEvent id="_D9EE12B8-7285-4F1C-9A2B-0E4B2ABA5815" drools:selectable="true" color:background-color="#ff6347" color:border-color="#000000" color:color="#000000" name="">
+      <bpmn2:extensionElements>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[]]></drools:metaValue>
+        </drools:metaData>
+        <drools:metaData name="elementname">
+          <drools:metaValue><![CDATA[]]></drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>_33DE5A21-3E1B-43F1-AD8A-2D4935442FC8</bpmn2:incoming>
+    </bpmn2:endEvent>
+    <bpmn2:sequenceFlow id="_33DE5A21-3E1B-43F1-AD8A-2D4935442FC8" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_8E79C52A-4DDE-42A1-9A2B-294C7A2D0617" targetRef="_D9EE12B8-7285-4F1C-9A2B-0E4B2ABA5815"/>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_s_MTDOYdEeWnO7D3SZT-Cw">
-    <bpmndi:BPMNPlane id="_s_MTDeYdEeWnO7D3SZT-Cw" bpmnElement="Remuneraciones.Calculo">
-      <bpmndi:BPMNShape id="_s_MTDuYdEeWnO7D3SZT-Cw" bpmnElement="processStartEvent">
+  <bpmndi:BPMNDiagram id="_uoucrOYdEeWnO7D3SZT-Cw">
+    <bpmndi:BPMNPlane id="_uoucreYdEeWnO7D3SZT-Cw" bpmnElement="Remuneraciones.Calculo">
+      <bpmndi:BPMNShape id="_uoucruYdEeWnO7D3SZT-Cw" bpmnElement="processStartEvent">
         <dc:Bounds height="30.0" width="30.0" x="120.0" y="165.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_s_MTD-YdEeWnO7D3SZT-Cw" bpmnElement="_BDA2B1AC-3D92-4024-B2B7-84F90195F3C8">
+      <bpmndi:BPMNShape id="_uoucr-YdEeWnO7D3SZT-Cw" bpmnElement="_BDA2B1AC-3D92-4024-B2B7-84F90195F3C8">
         <dc:Bounds height="80.0" width="100.0" x="195.0" y="140.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_s_MTEOYdEeWnO7D3SZT-Cw" bpmnElement="_C3F4C0E5-B92E-4E5B-9463-54B05A7CBF65">
+      <bpmndi:BPMNEdge id="_uoucsOYdEeWnO7D3SZT-Cw" bpmnElement="_C3F4C0E5-B92E-4E5B-9463-54B05A7CBF65">
         <di:waypoint xsi:type="dc:Point" x="135.0" y="180.0"/>
         <di:waypoint xsi:type="dc:Point" x="245.0" y="180.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_s_MTEeYdEeWnO7D3SZT-Cw" bpmnElement="_65868091-177C-4180-B476-42A3F303C7A6">
+      <bpmndi:BPMNShape id="_uoucseYdEeWnO7D3SZT-Cw" bpmnElement="_65868091-177C-4180-B476-42A3F303C7A6">
         <dc:Bounds height="80.0" width="100.0" x="330.0" y="140.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_s_M6EOYdEeWnO7D3SZT-Cw" bpmnElement="_2F602A2D-3342-4F2E-916A-E168F7FF027D">
+      <bpmndi:BPMNEdge id="_uoucsuYdEeWnO7D3SZT-Cw" bpmnElement="_2F602A2D-3342-4F2E-916A-E168F7FF027D">
         <di:waypoint xsi:type="dc:Point" x="245.0" y="180.0"/>
         <di:waypoint xsi:type="dc:Point" x="380.0" y="180.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_s_M6EeYdEeWnO7D3SZT-Cw" bpmnElement="_8E79C52A-4DDE-42A1-9A2B-294C7A2D0617">
+      <bpmndi:BPMNShape id="_uoucs-YdEeWnO7D3SZT-Cw" bpmnElement="_8E79C52A-4DDE-42A1-9A2B-294C7A2D0617">
         <dc:Bounds height="80.0" width="100.0" x="485.0" y="140.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_s_M6EuYdEeWnO7D3SZT-Cw" bpmnElement="_84E51326-94A7-462E-B927-8B2535D65617">
+      <bpmndi:BPMNEdge id="_uovDsOYdEeWnO7D3SZT-Cw" bpmnElement="_84E51326-94A7-462E-B927-8B2535D65617">
         <di:waypoint xsi:type="dc:Point" x="380.0" y="180.0"/>
         <di:waypoint xsi:type="dc:Point" x="535.0" y="180.0"/>
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="_uovDseYdEeWnO7D3SZT-Cw" bpmnElement="_D9EE12B8-7285-4F1C-9A2B-0E4B2ABA5815">
+        <dc:Bounds height="28.0" width="28.0" x="630.0" y="166.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="_uovDsuYdEeWnO7D3SZT-Cw" bpmnElement="_33DE5A21-3E1B-43F1-AD8A-2D4935442FC8">
+        <di:waypoint xsi:type="dc:Point" x="535.0" y="180.0"/>
+        <di:waypoint xsi:type="dc:Point" x="644.0" y="180.0"/>
+      </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_s_M6E-YdEeWnO7D3SZT-Cw" type="BPSimData">
+  <bpmn2:relationship id="_uovDs-YdEeWnO7D3SZT-Cw" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters" baseTimeUnit="min"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_84E51326-94A7-462E-B927-8B2535D65617" id="_s_M6FOYdEeWnO7D3SZT-Cw">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_84E51326-94A7-462E-B927-8B2535D65617" id="_uovDtOYdEeWnO7D3SZT-Cw">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="processStartEvent" id="_s_M6FeYdEeWnO7D3SZT-Cw">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="processStartEvent" id="_uovDteYdEeWnO7D3SZT-Cw">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -135,19 +155,7 @@ System.out.println("Sueldo + comision =  " + vendedor.getSueldo() * vendedor.get
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_65868091-177C-4180-B476-42A3F303C7A6" id="_s_M6FuYdEeWnO7D3SZT-Cw">
-            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
-              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
-                <bpsim:UniformDistribution max="10.0" min="5.0"/>
-              </bpsim:ProcessingTime>
-            </bpsim:TimeParameters>
-            <bpsim:CostParameters xsi:type="bpsim:CostParameters">
-              <bpsim:UnitCost xsi:type="bpsim:Parameter">
-                <bpsim:FloatingParameter value="0.0"/>
-              </bpsim:UnitCost>
-            </bpsim:CostParameters>
-          </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_8E79C52A-4DDE-42A1-9A2B-294C7A2D0617" id="_s_M6F-YdEeWnO7D3SZT-Cw">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_65868091-177C-4180-B476-42A3F303C7A6" id="_uovDtuYdEeWnO7D3SZT-Cw">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -159,14 +167,33 @@ System.out.println("Sueldo + comision =  " + vendedor.getSueldo() * vendedor.get
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C3F4C0E5-B92E-4E5B-9463-54B05A7CBF65" id="_s_M6GOYdEeWnO7D3SZT-Cw">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_D9EE12B8-7285-4F1C-9A2B-0E4B2ABA5815" id="_uovDt-YdEeWnO7D3SZT-Cw">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:UniformDistribution max="10.0" min="5.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_8E79C52A-4DDE-42A1-9A2B-294C7A2D0617" id="_uovDuOYdEeWnO7D3SZT-Cw">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:UniformDistribution max="10.0" min="5.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+            <bpsim:CostParameters xsi:type="bpsim:CostParameters">
+              <bpsim:UnitCost xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="0.0"/>
+              </bpsim:UnitCost>
+            </bpsim:CostParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C3F4C0E5-B92E-4E5B-9463-54B05A7CBF65" id="_uovDueYdEeWnO7D3SZT-Cw">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
               </bpsim:Probability>
             </bpsim:ControlParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_BDA2B1AC-3D92-4024-B2B7-84F90195F3C8" id="_s_M6GeYdEeWnO7D3SZT-Cw">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_BDA2B1AC-3D92-4024-B2B7-84F90195F3C8" id="_uovDuuYdEeWnO7D3SZT-Cw">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:UniformDistribution max="10.0" min="5.0"/>
@@ -186,7 +213,14 @@ System.out.println("Sueldo + comision =  " + vendedor.getSueldo() * vendedor.get
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_2F602A2D-3342-4F2E-916A-E168F7FF027D" id="_s_M6GuYdEeWnO7D3SZT-Cw">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_33DE5A21-3E1B-43F1-AD8A-2D4935442FC8" id="_uovDu-YdEeWnO7D3SZT-Cw">
+            <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
+              <bpsim:Probability xsi:type="bpsim:Parameter">
+                <bpsim:FloatingParameter value="100.0"/>
+              </bpsim:Probability>
+            </bpsim:ControlParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_2F602A2D-3342-4F2E-916A-E168F7FF027D" id="_uovDvOYdEeWnO7D3SZT-Cw">
             <bpsim:ControlParameters xsi:type="bpsim:ControlParameters">
               <bpsim:Probability xsi:type="bpsim:Parameter">
                 <bpsim:FloatingParameter value="100.0"/>
@@ -196,7 +230,7 @@ System.out.println("Sueldo + comision =  " + vendedor.getSueldo() * vendedor.get
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_s_LE4eYdEeWnO7D3SZT-Cw</bpmn2:source>
-    <bpmn2:target>_s_LE4eYdEeWnO7D3SZT-Cw</bpmn2:target>
+    <bpmn2:source>_uot1kOYdEeWnO7D3SZT-Cw</bpmn2:source>
+    <bpmn2:target>_uot1kOYdEeWnO7D3SZT-Cw</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
