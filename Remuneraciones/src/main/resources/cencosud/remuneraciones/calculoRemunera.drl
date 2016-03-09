@@ -5,7 +5,7 @@ package cencosud.remuneraciones;
 
 //from row number: 1
 rule "Row 1 calculoRemuneraciones"
-	ruleflow-group "calculoRemu"
+	ruleflow-group "calculoRemus"
 	dialect "mvel"
 	when
 		f1 : Vendedor( montoVenta >= 500000 , montoVenta <= 600000 )
@@ -16,7 +16,7 @@ end
 
 //from row number: 2
 rule "Row 2 calculoRemuneraciones"
-	ruleflow-group "calculoRemu"
+	ruleflow-group "calculoRemus"
 	dialect "mvel"
 	when
 		f1 : Vendedor( montoVenta >= 600001 , montoVenta <= 700000 )
@@ -27,7 +27,7 @@ end
 
 //from row number: 3
 rule "Row 3 calculoRemuneraciones"
-	ruleflow-group "calculoRemu"
+	ruleflow-group "calculoRemus"
 	dialect "mvel"
 	when
 		f1 : Vendedor( montoVenta >= 700001 , montoVenta <= 800000 )
@@ -38,7 +38,7 @@ end
 
 //from row number: 4
 rule "Row 4 calculoRemuneraciones"
-	ruleflow-group "calculoRemu"
+	ruleflow-group "calculoRemus"
 	dialect "mvel"
 	when
 		f1 : Vendedor( montoVenta >= 800001 , montoVenta <= 900000 )
@@ -49,7 +49,7 @@ end
 
 //from row number: 5
 rule "Row 5 calculoRemuneraciones"
-	ruleflow-group "calculoRemu"
+	ruleflow-group "calculoRemus"
 	dialect "mvel"
 	when
 		f1 : Vendedor( montoVenta >= 900001 , montoVenta <= 10000000 )
