@@ -1,0 +1,28 @@
+
+<form id="1471509983">
+<property name="name" value="ingreso-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="vendedor_sueldo" type="InputTextPrimitiveInteger" id="639003565">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;sueldo (vendedor)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="outVendedor/sueldo"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="1" name="vendedor_montoVenta" type="InputTextPrimitiveInteger" id="379855814">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;montoVenta (vendedor)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="outVendedor/montoVenta"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="0" name="vendedor_comision" type="InputTextPrimitiveInteger" id="1120394642">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;comision (vendedor)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="outVendedor/comision"/>
+<property name="fieldClass" value="int"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="outVendedor" value="cencosud.remuneraciones.Vendedor" id="vendedor"/>
+</form>
