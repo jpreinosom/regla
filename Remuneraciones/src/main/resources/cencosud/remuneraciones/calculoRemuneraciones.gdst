@@ -85,6 +85,14 @@
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
         <entry>
+          <string>INSERT_ROW</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>INSERT_COLUMN</string>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
           <string>DELETE_COLUMN</string>
           <boolean>false</boolean>
         </entry>
@@ -93,15 +101,7 @@
           <boolean>false</boolean>
         </entry>
         <entry>
-          <string>INSERT_ROW</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
           <string>DELETE_ROW</string>
-          <boolean>false</boolean>
-        </entry>
-        <entry>
-          <string>INSERT_COLUMN</string>
           <boolean>false</boolean>
         </entry>
       </acceptedTypes>
@@ -138,7 +138,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">600000</valueNumeric>
+        <valueNumeric class="int">550000</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
